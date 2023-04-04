@@ -1,80 +1,84 @@
 .maincontainer{
   width: 100%;
   height: 100%;
-  background-image:url(../My_Project_01/image/cuteBackground_1.jpg);
+  background-image:url(../My_Project_01/image/cuteBackground_2.png);
   background-size: cover;
   display: inline-block;
 }
 .head{
   width: 100%;
-  
+height: 100%;
 }
-.nav{
+.navi{
   width: 100%;
-  
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.top{
-  width: 100%;
-  height: 35px;
   font-weight: bolder;
   font-size: 15px;
   padding-top: 10px;
-  box-sizing: border-box;
+}
+.top{
+  width: 100%;
+  text-align: right;
+
 }
 .top ul{
-  width: 100%;
   list-style: none;
-  display: flex;
-  
+  display: inline-flex;
+  padding-left: 0;
 }
 .top li{
   width: 100px;
   text-align: center;
   font-size: 15px;
   }
+  .top li :hover{
+    text-decoration: underline;
+    background-color: lightpink;
+  }
   li a{
     text-decoration: none;
     color: black;
     
   }
-
-
-.top img{
-  width: 23px;
-  height: 30px;
-  scroll-padding-right: 2px;
-  padding-bottom: 5px;
+  .top img#soonsim{
+    width: 30px;
+    height: 30px;
   }
+  .top img{
+    width: 23px;
+    height: 30px;
+    scroll-padding-right: 2px;
+    padding-bottom: 5px;
+    }
 
   .banner{
   text-align: center; 
   }
 .banner img{
   width: 400px;
-  height: 180px;
+  height: 200px;
 }
 .category{
   width: 100%;
   height: 35px;
-  background-color: white;
-  text-align: center;
+  background-color: lightblue;
+  border: 1px solid gray;
   font-weight: bold;
   padding-top: 5px;  
   }
   .category ul{
     list-style: none;
     display: flex;
-    margin: 0 auto;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .category li{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0 auto;
   }
-
+  .category li:hover{
+    text-decoration: underline;
+    background-color: lightpink;
+  }
   #search{
     font-size: small;
 
@@ -87,34 +91,65 @@ a{
   .box{
     width: 100%;
     height: 100%;
-    height: fit-content;
     /* border: 1px solid black; */
   
   }
-
+.cloth{
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  background-size: cover;
+}
 .clothA{
   width: 250px;
   height: 300px;
   background-size: cover;
   display: inline-flex;
   margin-left: 20px;
-  
+  margin: 0 auto;
   }
 .clothB{
   width: 400px;
   height: 300px;
   background-size: cover;
-  display: inline-flex;
-  
+  margin: 0 auto;
 }
-.sticker{
+.goods{
   display: inline-flex;
   margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
-.stickerA{
-  width: 200px;
+.goodsA{
+  width: 300px;
   height: 200px;
   background-size: cover;
   margin: 0 auto;
+}
+.goodsB{
+  width: 250px;
+  height: 300px;
+  background-size: cover;
+  margin: 0 auto;
+
+}
+.swInfo{
+  display: inline-flex;
   
+}
+.infoA{
+  margin: 0 auto;
+}
+#infoRed{
+  color: red;
+  font-weight: bolder;
+font-size: 15px;
+}
+.basicFont{
+  font-size: 13px;
+}
+.boldFont{
+  font-size: 13px;
+  font-weight: bolder;
 }

@@ -1,117 +1,175 @@
-.maincontainer{
+.maincontainer {
   width: 100%;
   height: 100%;
-  background-image:url(./image/cuteBackground_2.png);
+  background-image: url(../My_Project_01/image/로그인배경2.png);
   background-size: cover;
   display: inline-block;
 }
-.head{
+
+.head {
   width: 100%;
   height: 100%;
   /* border: 1px solid black; */
 }
-.navi{
+
+.navi {
   width: 100%;
   font-weight: bolder;
   font-size: 15px;
   padding-top: 10px;
 }
-.top{
+
+.top {
   width: 50%;
   text-align: right;
   display: inline-flex;
   padding-left: 50%;
 }
-.top ul{
+
+.top ul {
   list-style: none;
   display: flex;
   padding-left: 0;
 }
-.top li{
+
+.top li {
   width: 100px;
   text-align: center;
   font-size: 15px;
-  }
-  #here{
-    color: blue;
-  }
-  .top li :hover{
-    text-decoration: underline;
-    background-color: lightpink;
-  }
-  li a{
-    
-    text-decoration: none;
-    color: black;
-    
-  }
-  .top img#soonsim{
-    width: 30px;
-    height: 30px;
-  }
-  
-  .top img{
-    width: 23px;
-    height: 30px;
-    padding-bottom: 5px;
-    }
+}
 
-    .banner{
-      text-align: center; 
-      margin: 0 auto;
-      }
-    .banner img{
-      width: 100%;
-      height: 200px;
-    }
+#here {
+  color: blue;
+}
 
-    .logInBox{
-      width: 30%;
-      height: 350px;
-      margin: 0 auto;
-      /* border: 1px solid black; */
-      text-align: center;
-    }
-  body p#text{
-    text-align: left;
-    padding-left:100px;
-  }
-    #text{
-      font-weight: bolder;
-      margin-top: 5px;
-      margin-bottom: 0;
-    }
-    #login{
-      margin: 0 auto;
-      margin-top: 20px;
-      padding-top: 5px;
-      width: 185px;
-      height: 40px;
-      border: 1px solid gray;
-      background-color: lightyellow;
-      font-weight: bolder;
-      font-size: larger;
-    }
-    #login a{
-      text-decoration: none;
-      color: black;
-    }
-    .swInfo{
-      display: inline-flex;
-      
-    }
-    .infoA{
-      margin: 0 auto;
-    }
-    #infoRed{
-      color: red;
-      font-weight: bolder;
-    font-size: 15px;
-    }
-    .basicFont{
-      font-size: 13px;
-    }
-    .boldFont{
-      font-size: 13px;
-      font-weight: bolder;
-    }
+.top li :hover {
+  text-decoration: underline;
+  background-color: lightpink;
+}
+
+li a {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.top img#soonsim {
+  width: 30px;
+  height: 30px;
+}
+
+.top img {
+  width: 23px;
+  height: 30px;
+  padding-bottom: 5px;
+}
+
+.banner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner img {
+  width: 100%;
+  height: 200px;
+}
+
+.logInBox {
+  width: 30%;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#logbox {
+  width: 80%;
+}
+
+#remember {
+  margin-top: 20px;
+}
+
+.lgCategory {
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+#idLg,
+#qrLg {
+  width: 50%;
+  height: 50px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#idLg:hover,
+#qrLg:hover {
+  text-decoration: underline;
+}
+
+#qrLg {
+  border: 1px dashed black;
+  background-color: rgb(216, 251, 216);
+}
+
+#qrLg a {
+  text-decoration: none;
+  color: black;
+}
+
+body p#text {
+  text-align: left;
+  padding-left: 41px;
+}
+
+#text {
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#login {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 5px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: lightyellow;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+#login a {
+  text-decoration: none;
+  color: black;
+}
+
+.swInfo {
+  display: inline-flex;
+
+}
+
+.infoA {
+  margin: 0 auto;
+}
+
+#infoRed {
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.basicFont {
+  font-size: 13px;
+}
+
+.boldFont {
+  font-size: 13px;
+  font-weight: bolder;
+}

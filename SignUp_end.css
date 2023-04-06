@@ -1,120 +1,137 @@
-.maincontainer{
+.maincontainer {
   width: 100%;
   height: 100%;
-  background-image:url(./image/cuteBackground_2.png);
+  background-image: url(../My_Project_01/image/순심뿅애니ver2.gif);
   background-size: cover;
   display: inline-block;
+  
 }
-.head{
+
+
+
+.head {
   width: 100%;
   height: 100%;
   /* border: 1px solid black; */
 }
-.navi{
+
+.navi {
   width: 100%;
   font-weight: bolder;
   font-size: 15px;
   padding-top: 10px;
-  
 }
-.top{
+
+.top {
   width: 50%;
   text-align: right;
   display: inline-flex;
   padding-left: 50%;
-  
 }
-.top ul{
+
+.top ul {
   list-style: none;
   display: flex;
   padding-left: 0;
-  
 }
-.top li{
+
+.top li {
   width: 100px;
   text-align: center;
   font-size: 15px;
-  }
-  #here{
-    color: blue;
-  }
-  .top li :hover{
-    text-decoration: underline;
-    background-color: lightpink;
-  }
-  li a{
-    
-    text-decoration: none;
-    color: black;
-    
-  }
-  .top img#soonsim{
-    width: 30px;
-    height: 30px;
-  }
-  
-  .top img{
-    width: 23px;
-    height: 30px;
-    padding-bottom: 5px;
-    }
+}
 
-    .banner{
-      text-align: center; 
-      margin: 0 auto;
-      }
-    .banner img{
-      width: 100%;
-      height: 200px;
-    }
-.body{
-  width: 40%;
-  margin: 0 auto;
+#here {
+  color: blue;
+}
+
+.top li :hover {
+  text-decoration: underline;
+  background-color: lightpink;
+}
+
+li a {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+.top img#soonsim {
+  width: 30px;
+  height: 30px;
+}
+
+.top img {
+  width: 23px;
+  height: 30px;
+  padding-bottom: 5px;
+}
+
+.banner {
   text-align: center;
+  margin: 0 auto;
 }
-.body #input{
-  width: 300px;
-  height: 25px;
-}
-.body p{
-  text-align: justify;
-  padding-left: 105px;
-  margin-bottom: 0;
-  font-weight: bolder;
-}
-#safe{
+
+.banner img {
   width: 100%;
+  height: 200px;
+}
+
+.body{
+  width: 100%;
+  height: 980px;
+  /* border: 1px solid black; */
+  background-size: cover;
+}
+
+
+#safe {
+  width: 300px;
   height: 80px;
   overflow: scroll;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
 }
-.SignUp{
+
+.SignUp {
   width: 300px;
   height: 50px;
   padding-top: 12px;
   font-weight: bold;
+
   margin: 0 auto;
   background-color: lightyellow;
   border: 1px solid black;
 }
 
-    .swInfo{
-      display: inline-flex;
-      margin-top: 20px;
-      
-    }
-    .infoA{
-      margin: 0 auto;
-    }
-    #infoRed{
-      color: red;
-      font-weight: bolder;
-    font-size: 15px;
-    }
-    .basicFont{
-      font-size: 13px;
-    }
-    .boldFont{
-      font-size: 13px;
-      font-weight: bolder;
-    }
+.SignUp a {
+  text-decoration: none;
+  color: black;
+}
 
+.swInfo {
+  display: inline-flex;
+  margin-top: 20px;
+
+}
+
+.infoA {
+  margin: 0 auto;
+}
+
+#infoRed {
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.basicFont {
+  font-size: 13px;
+}
+
+.boldFont {
+  font-size: 13px;
+  font-weight: bolder;
+}

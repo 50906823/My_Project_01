@@ -1,0 +1,455 @@
+.maincontainer {
+  width: 100%;
+  height: 100%;
+  background-image: url(../My_Project_01/image/배경10.png);
+  background-size: cover;
+  display: inline-block;
+}
+
+.head {
+  width: 100%;
+  height: 100%;
+}
+
+.navi {
+  width: 100%;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.top {
+  width: 100%;
+  height: 45px;
+  text-align: right;
+  /* background-color: rgb(230, 208, 255); */
+
+  margin-bottom: 0;
+}
+
+.top ul {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.top li {
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+.top li :hover {
+  text-decoration: underline;
+  background-color: lightpink;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.top img#soonsim {
+  width: 30px;
+  height: 30px;
+}
+
+.top img {
+  width: 23px;
+  height: 30px;
+  padding-bottom: 5px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 400px;
+  height: 200px;
+}
+#love{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: small;
+}
+.category {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(230, 208, 255);
+  border: 1px solid white;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.category ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.category li {
+  margin: 0 auto;
+}
+
+.category li:hover {
+  text-decoration: underline;
+  background-color: lightpink;
+}
+
+#search {
+  font-size: small;
+}
+.body {
+  width: 100%;
+  height: 100%;
+text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+
+}
+.boxA{
+  width: 100%;
+  display: inline-flex;
+  margin: 0 auto;
+}
+.cloth #clothInfoA,.clothW #clothInfoB,.cloth #itemInfo{
+  font-weight: bold;
+  font-size: small;
+}
+.cloth #clothInfoA:hover,#clothInfoB:hover,.cloth #itemInfo:hover{
+  text-decoration: underline;
+}
+.boxA #itemInfo{
+text-align: center;
+}
+.cloth {
+  width: 240px;
+  height: 100%;
+  background-size: cover;
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.clothW{
+  width: 400px;
+  height: 100%;
+  background-size: cover;
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#clothLeft{
+  padding-right: 40px;
+}
+#clothInfoA{
+  padding-left: 40px;
+}
+
+.clothA {
+  width: 200px;
+  height: 250px;
+  background-size: cover;
+  margin: 0 auto;
+  display: inline-flex;
+}
+
+.clothB {
+  width: 350px;
+  height: 256px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.goodsA {
+  width: 380px;
+  height: 100%;
+  /* border: 1px solid black; */
+  display:inline-block;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.goodsA #itemInfo{
+  font-weight: bold;
+  font-size: small;
+  color: black;
+  /* background-color: lightpink; */
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+.goodsA #itemInfo:hover{
+  text-decoration: underline;
+}
+.pantsA{
+  background-image: url(./image/여름팬츠1.png);
+  background-size: cover;
+  width: 380px;
+  height: 200px;
+}
+.cap{
+  background-image: url(./image/캡모자\ \(2\).png);
+  background-size: cover;
+  width: 380px;
+  height: 200px;
+  animation-name: cap;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes cap{
+  0%{
+    background-image: url(./image/캡모자\ \(2\).png);
+  }
+  33%{
+    background-image: url(./image/캡모자\ \(1\).png);
+  }
+  66%{
+    background-image: url(./image/캡모자\ \(3\).png);
+  }
+  100%{
+    background-image: url(./image/캡모자\ \(2\).png);
+  }
+}
+.socks{
+  background-image: url(./image/양말.png);
+  background-size: cover;
+  width: 380px;
+  height: 200px;
+}
+
+.calendar {
+  background-image: url(./image/순심이\ 달력1.png);
+  background-size: cover;
+  width: 380px;
+  height: 240px;
+  animation-name: calendar;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes calendar {
+  0% {
+    background-image: url(./image/순심이\ 달력1.png);
+  }
+  25% {
+    background-image: url(./image/순심이\ 달력2.png);
+  }
+  50% {
+    background-image: url(./image/순심이\ 달력3.png);
+  }
+  75% {
+    background-image: url(./image/순심이\ 달력4.png);
+  }
+  100% {
+    background-image: url(./image/순심이\ 달력1.png);
+  }
+}
+.cupA{
+  background-image: url(./image/머그컵_겜블러_메인\ \(1\).png);
+  background-size: cover;
+  width: 380px;
+  height: 240px;
+  animation-name: cupA;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes cupA{
+  0%{
+    background-image: url(./image/머그컵_겜블러_메인\ \(1\).png);
+  }
+  25%{
+    background-image: url(./image/머그컵_겜블러_메인\ \(2\).png);
+  }
+  50%{
+    background-image: url(./image/머그컵_겜블러_메인\ \(3\).png);
+  }
+  75%{
+    background-image: url(./image/머그컵_겜블러_메인\ \(4\).png);
+  }
+  100%{
+    background-image: url(./image/머그컵_겜블러_메인\ \(1\).png);
+  }
+}
+
+.cupB{
+  background-image: url(./image/머그컵_쇼미더머니_메인1.png);
+  background-size: cover;
+  width: 380px;
+  height: 240px;
+  animation-name: cupB;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes cupB{
+  0%{
+    background-image: url(./image/머그컵_쇼미더머니_메인1.png);
+  }
+  25%{
+    background-image: url(./image/머그컵_쇼미더머니_메인2.png);
+  }
+  50%{
+    background-image: url(./image/머그컵_쇼미더머니_메인3.png);
+  }
+  75%{
+    background-image: url(./image/머그컵_쇼미더머니_메인4.png);
+  }
+  100%{
+    background-image: url(./image/머그컵_쇼미더머니_메인1.png);
+  }
+}
+.goodsB{
+  width: 270px;
+  height: 100%;
+  /* border: 1px solid black; */
+  display:inline-block;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.goodsB #itemInfo{
+font-size: small;
+font-weight: bold;
+padding-top: 10px;
+}
+.goodsB #itemInfo:hover{
+  text-decoration: underline;
+}
+.keyRingA{
+  width: 270px;
+  height: 350px;
+  background-image: url(./image/키링\ 상품판매이미지1.png);
+  background-size: cover;
+  margin: 0 auto;
+  animation-name: keyRingA;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes keyRingA{
+  0%{
+    background-image: url(./image/키링\ 상품판매이미지1.png);
+  }
+  50%{
+    background-image: url(./image/하트키링3d.png);
+  }
+  100%{
+    background-image: url(./image/키링\ 상품판매이미지1.png);
+  }
+}
+.keyRingB{
+  width: 270px;
+  height: 350px;
+  background-image: url(./image/키링\ 상품판매이미지2.png);
+  background-size: cover;
+  margin: 0 auto;
+  animation-name: keyRingB;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes keyRingB{
+  0%{
+    background-image: url(./image/키링\ 상품판매이미지2.png);
+  }
+  50%{
+    background-image: url(./image/원형키링3d.png);
+  }
+  100%{
+    background-image: url(./image/키링\ 상품판매이미지2.png);
+  }
+}
+.phoneCase{
+  width: 270px;
+  height: 350px;
+  background-image: url(./image/핸드폰케이스\ \(1\).png);
+  background-size: cover;
+  animation-name: phoneCase;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes phoneCase{
+  0%{
+    background-image: url(./image/핸드폰케이스\ \(1\).png);
+  }
+  50%{
+    background-image: url(./image/핸드폰케이스\ \(2\).png);
+  }
+  100%{
+    background-image: url(./image/핸드폰케이스\ \(1\).png);
+  }
+}
+.mirror{
+  width: 270px;
+  height: 350px;
+  background-image: url(./image/손거울블랙\ 상품이미지\ \(1\).png);
+  background-size: cover;
+  margin: 0 auto;
+  animation-name: mirror;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes mirror{
+  0%{
+    background-image: url(./image/손거울블랙\ 상품이미지\ \(1\).png);
+  }
+  33%{
+    background-image: url(./image/손거울블랙\ 상품이미지\ \(2\).png);
+  }
+  66%{
+    background-image: url(./image/손거울블랙\ 상품이미지\ \(3\).png);
+  }
+  100%{
+    background-image: url(./image/손거울블랙\ 상품이미지\ \(1\).png);
+  }
+}
+.swInfo {
+  display: inline-flex;
+
+}
+
+.infoA {
+  margin: 0 auto;
+}
+
+#infoRed {
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.basicFont {
+  font-size: 13px;
+}
+
+.boldFont {
+  font-size: 13px;
+  font-weight: bolder;
+}

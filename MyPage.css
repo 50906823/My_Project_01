@@ -1,0 +1,90 @@
+.maincontainer {
+  width: 100%;
+  height: 100%;
+  background-image: url(../My_Project_01/image/마이페이지.png);
+  background-size: cover;
+  display: inline-block;
+}
+.head {
+  width: 100%;
+  height: 100%;
+}
+
+.navi {
+  width: 100%;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.top {
+  width: 100%;
+  height: 45px;
+  text-align: right;
+  /* background-color: rgb(230, 208, 255); */
+
+  margin-bottom: 0;
+}
+
+.top ul {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.top li {
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+.top li :hover {
+  text-decoration: underline;
+  background-color: lightpink;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+.top img#soonsim {
+  width: 30px;
+  height: 30px;
+}
+
+.top img {
+  width: 23px;
+  height: 30px;
+  padding-bottom: 5px;
+}
+/* ---- 헤드 여기까지 바디시작 ------ */
+.body{
+  width: 100%;
+  height: 700px;
+}
+
+
+
+/* ---- 바디 여기까지 풋시작 ------ */
+.swInfo {
+  display:flex;
+
+}
+
+.infoA {
+  margin: 0 auto;
+}
+
+#infoRed {
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.basicFont {
+  font-size: 13px;
+}
+
+.boldFont {
+  font-size: 13px;
+  font-weight: bolder;
+}

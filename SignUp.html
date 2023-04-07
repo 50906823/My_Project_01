@@ -34,16 +34,36 @@
 <!-- head 끝 body 시작 -->
 
 <div class="body">
-  <p>이름</p><input type="text" id="input"><br>
-  <p>이메일주소</p><input type="email" id="input"><br>
-  <p>아이디</p><input type="text" id="input"><br>
-  <p>비밀번호</p><input type="password" id="input"><br>
-  <p>비밀번호 확인</p><input type="password" id="input"><br>
-  <p>개인정보활용안내</p><div id="safe"> 완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.완전히 안전합니다.</div>
-  <input type="radio" checked> 동의<br>
-  <div class="SignUp"><a href="./SignUp_end.html">회원가입하기</a></div>
-  <br>
+<div class="left">
+  <p id="name">*이름</p>
+  <p>*이메일주소</p>
+  <p>*휴대폰번호</p>
+  <p>*아이디</p>
+  <p>*비밀번호</p>
+  <p>*비밀번호 확인</p>
+  <p class="adress">주소</p>
 </div>
+<div class="right">
+  <input type="text" id="name"><br>
+  <input type="text"><br>
+  <input type="tel" placeholder="'-'없이 입력하세요"><br>
+  <input type="text"><br>
+  <input type="password"><br>
+  <input type="password"><br>
+  <input type="text" id="adress"><button id="postNum">우편번호</button><br>
+  <input type="text" id="detailAdress">
+  <p>*필수입력사항</p>
+</div>
+</div>
+<!-- body끝 Agree 시작 -->
+<div class="Agree">
+  <div class="agA"><input type="checkbox" checked>[필수]이용약관동의<br>
+<input type="checkbox" checked>[필수]개인정보수집 및 이용동의</div>
+<div class="agB"><p>내용보기</p><p>내용보기</p></div>
+</div>
+  <div class="SignUp" onclick="sgUp()"><a href="./SignUp_end.html">회원가입하기</a></div>
+  <br>
+
 
 <!-- body 끝 foot 시작 -->
     <div class="navi swInfo">
@@ -81,8 +101,17 @@
         </p>
       </div>
     </div> 
-
   </div>
+  <!-- mainContianer 끝! -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+var link = "http://127.0.0.1:5500/My_Project_01/SignUp_end.html";
 
+function sgUp(){
+  location.href = link;
+}
+
+
+</script>
 </body>
 </html>

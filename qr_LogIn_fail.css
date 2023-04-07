@@ -110,7 +110,8 @@ li a {
 
 #idLg {
   border: 1px dashed black;
-  background-color: rgb(216, 251, 216);
+  background-color: #ceb6e0;
+
 }
 
 #idLg a {
@@ -134,13 +135,14 @@ li a {
   width: 80%;
   font-size: small;
   margin: 0 auto;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 #return {
   text-decoration: none;
   font-weight: bolder;
-  color: hotpink;
+  color: purple;
+  
 }
 #return:hover{
   text-decoration: underline;

@@ -79,16 +79,26 @@ li a {
   width: 30%;
   height: 400px;
   margin: 0 auto;
+  /* border: 1px solid violet;
+  border: 1px solid #ceb6e0;
+  border: 1px solid lightblue;
+  */
   border: 1px solid black;
+
   text-align: center;
 }
 
 #logbox {
   width: 80%;
 }
+.rememberLogin{
+  text-align: start;
+  padding-left: 40px;
+}
 
 #remember {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .lgCategory {
@@ -114,7 +124,8 @@ li a {
 
 #qrLg {
   border: 1px dashed black;
-  background-color: rgb(216, 251, 216);
+  background-color: #ceb6e0;
+
 }
 
 #qrLg a {
@@ -133,23 +144,35 @@ body p#text {
   margin-bottom: 0;
 }
 
-#login {
+#login, #joinUs {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 5px;
   width: 80%;
   height: 40px;
-  border: 1px solid gray;
-  background-color: lightyellow;
+  /* border: 1px solid #7d9fa8; */
+  border: 1px solid black;
+  background-color: #ceb6e0;
+  /* background-color: #ffc1c1; */
+
+
   font-weight: bolder;
   font-size: larger;
 }
 
-#login a {
+#login a,#joinUs a {
   text-decoration: none;
   color: black;
 }
-
+#login:hover,#joinUs:hover{
+  text-decoration: underline;
+}
+p#forgot{
+font-size: 15px;
+font-weight: bold;
+padding-top: 10px;
+color: red;
+}
 .swInfo {
   display: inline-flex;
 

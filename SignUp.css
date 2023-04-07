@@ -75,42 +75,140 @@ li a {
   height: 200px;
 }
 
-.body {
-  width: 40%;
+.body{
+  width: 100%;
+  height: 300px;
   margin: 0 auto;
+  /* margin-top: 20px; */
+  /* text-align: center; */
+  display: inline-flex;
+  /* border: 1px solid black; */
+}
+.left{
+  width: 43%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+}
+p#name{
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+.left p {
+  font-size: small;
+  text-align: right;
+  font-weight: bolder;
+  margin-top: 13.5px;
+  margin-bottom: 0px;
+}
+p.adress{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.right{
+  width: 57%;
+  height:100%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.right input{
+  width: 200px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 13px;
+}
+input#adress{
+  width: 120px;
+  /* height: 25px; */
+}
+input#detailAdress{
+  width: 200px;
+}
+button#postNum{
+  font-size: 13px;
   text-align: center;
-}
-
-.body #input {
-  width: 300px;
+  width: 78px;
   height: 25px;
+  border: 1px solid black;
+  margin-left: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
 }
-
-.body p {
+.right p{
+  font-size: small;
+  font-weight: bolder;
+  color: red;
+}
+/* body 여기까지, .Agree시작 */
+.Agree{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline-flex;
+}
+.agA, .agB{
+  /* border: 1px solid green; */
+  font-size: small;
+}
+.agA{
+  width: 16%;
+  margin-left: 40%;
   text-align: justify;
-  padding-left: 105px;
-  margin-bottom: 0;
   font-weight: bolder;
 }
-
-#safe {
-  width: 300px;
-  height: 80px;
-  overflow: scroll;
-  background-color: white;
-  border: 1px solid black;
-  margin: 0 auto;
+.agB{
+  width: 10%;
+  padding-left: 5px;
+  color: blue;
 }
-
+.agB p{
+  margin-bottom: 0;
+}
+.agB p:hover{
+  text-decoration: underline;
+}
+/* Agree끝 SignUp시작 */
 .SignUp {
-  width: 300px;
+  width: 270px;
   height: 50px;
   padding-top: 12px;
   font-weight: bold;
-
   margin: 0 auto;
-  background-color: lightyellow;
+  background-color: #ceb6e0;
   border: 1px solid black;
+  text-align: center;
+}
+.SignUp:hover {
+  animation-name: rainbow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+@keyframes rainbow{
+  0%{
+    background-color: pink;
+  }
+  15%{
+    background-color: orange;
+  }
+  30%{
+    background-color: yellow;
+  }
+  45%{
+    background-color: lightgreen;
+  }
+  60%{
+    background-color: lightblue;
+  }
+  75%{
+    background-color: #ceb6e0;
+  }
+  100%{
+    background-color: lightpink;
+  }
 }
 
 .SignUp a {
@@ -118,9 +216,12 @@ li a {
   color: black;
 }
 
+
+
+/* 회사정보 */
 .swInfo {
   display: inline-flex;
-  margin-top: 20px;
+  margin-top: 39px;
 
 }
 

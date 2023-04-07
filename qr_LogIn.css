@@ -92,7 +92,8 @@
     }
     #idLg{
       border: 1px dashed black;
-      background-color: rgb(216, 251, 216);
+      background-color: #ceb6e0;
+
     }
     #idLg a{
       text-decoration: none;

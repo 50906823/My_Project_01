@@ -88,7 +88,7 @@ li a {
   text-align: center;
 }
 
-#logbox {
+#idForm, #pwForm {
   width: 80%;
 }
 .rememberLogin{

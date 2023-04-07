@@ -44,12 +44,12 @@
   <p class="adress">주소</p>
 </div>
 <div class="right">
-  <input type="text" id="name"><br>
-  <input type="text"><br>
-  <input type="tel" placeholder="'-'없이 입력하세요"><br>
-  <input type="text"><br>
-  <input type="password"><br>
-  <input type="password"><br>
+  <input type="text" id="essential"><br>
+  <input type="text" id="essential"><br>
+  <input type="tel" id="essential" placeholder="'-'없이 입력하세요"><br>
+  <input type="text" id="essential"><br>
+  <input type="password" id="essential"><br>
+  <input type="password" id="essential"><br>
   <input type="text" id="adress"><button id="postNum">우편번호</button><br>
   <input type="text" id="detailAdress">
   <p>*필수입력사항</p>
@@ -61,7 +61,7 @@
 <input type="checkbox" checked>[필수]개인정보수집 및 이용동의</div>
 <div class="agB"><p>내용보기</p><p>내용보기</p></div>
 </div>
-  <div class="SignUp" onclick="sgUp()"><a href="./SignUp_end.html">회원가입하기</a></div>
+  <div class="SignUp" onclick="sgUp()"><a href="./SignUp_end.html" onclick="sgUp()">회원가입하기</a></div>
   <br>
 
 
@@ -104,12 +104,23 @@
   </div>
   <!-- mainContianer 끝! -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-var link = "http://127.0.0.1:5500/My_Project_01/SignUp_end.html";
 
-function sgUp(){
-  location.href = link;
-}
+  <script>
+  
+  const e = document.getElementById('essential');
+  var trueLink = "http://127.0.0.1:5500/My_Project_01/SignUp_end.html";
+  var failLink = "http://127.0.0.1:5500/My_Project_01/SignUp.html";
+
+function sgUp() {
+  if(e.value == '' || e.value.length < 1 ){
+    alert('필수입력사항을 모두 작성해주세요')
+    location.href = failLink;
+  }
+  if(e.value != '' || e.value.length > 1 ) {
+    location.href = TrueLink;
+  }
+};
+// 필수입력사항을 모두 기입하지 않으면 회원가입 할 수 없도록 시도했지만 실패....................
 
 
 </script>

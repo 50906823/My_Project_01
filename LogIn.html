@@ -45,14 +45,14 @@
         </div>
         <br><br>
         <p id="text">아이디</p>
-        <input type="text" placeholder="아이디" id="logbox">
+        <input type="text" placeholder="아이디" id="idForm">
         <br>
-        <p id="text">비밀번호</p><input type="password" placeholder="비밀번호" id="logbox">
+        <p id="text">비밀번호</p><input type="password" placeholder="비밀번호" id="pwForm">
         <br>
         <div class="rememberLogin">
           <input type="checkbox" id="remember"> 로그인상태 유지
         </div>
-        <div id="login" onclick="trueORnot()"><a href="./main_LogIn.html">로그인하기</a></div>
+        <div id="login" onclick="trueORnot()"><a href="./LogIn.html" onclick="trueORnot()">로그인하기</a></div>
         <div id="joinUs"><a href="./SignUp.html">순심이 친구하기</a></div>
         <p id="forgot">아이디/비밀번호 찾기</p>
 
@@ -95,15 +95,42 @@
           </p>
         </div>
       </div>
-</div>
-</div>
-<!-- 메인컨테이너 끝 스크립트 시작 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </div>
+  </div>
+  <!-- 메인컨테이너 끝 스크립트 시작 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    
-    <script>
 
-    </script>
+  <script>
+    var TrueLink = 'http://127.0.0.1:5500/My_Project_01/main_LogIn.html';
+    var falseLink = 'http://127.0.0.1:5500/My_Project_01/LogIn.html';
+    const input_id = document.querySelector('#idForm');
+    const input_pw = document.querySelector('#pwForm');
+
+    function trueORnot() {
+      if ((input_id.value == '' || input_id.value.length < 1) && (input_pw.value == '' || input_pw.value.length < 1)) {
+        alert('아이디와 비밀번호를 입력해주세요');
+      }
+      else if (input_id.value == '' || input_id.value.length < 1) {
+        alert('아이디를 입력해주세요');
+        location.href = falseLink;
+      }
+      else if (input_pw.value == '' || input_pw.value.length < 1) {
+        alert('비밀번호를 입력해주세요');
+        location.href = falseLink;
+      }
+      else if (input_id.value != 'admin' || input_pw.value != 'admin') {
+        alert('아이디 또는 비밀번호를 잘못 입력했습니다. 입력하신 내용을 다시 확인해주세요.');
+        location.href = falseLink;
+      }
+      else if (input_id.value === 'admin' && input_pw.value === 'admin') {
+        location.href = TrueLink;
+      }
+    }
+
+  </script>
 
 </body>
 

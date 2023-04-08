@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'UhBeeSeulvely';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .maincontainer {
   width: 100%;
   height: 100%;
@@ -10,6 +26,8 @@
   width: 100%;
   height: 100%;
   /* border: 1px solid black; */
+  font-family: 'UhBeeSeulvely';
+  font-weight: lighter;
 }
 
 .navi {
@@ -81,7 +99,9 @@ li a {
   margin: 0 auto;
   border: 1px solid black;
   text-align: center;
+  font-family: 'TAEBAEKmilkyway';
 }
+
 
 #logbox {
   width: 80%;
@@ -136,6 +156,7 @@ li a {
   font-size: small;
   margin: 0 auto;
   padding-bottom: 5px;
+  font-weight: bolder;
 }
 
 #return {

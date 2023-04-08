@@ -1,3 +1,52 @@
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeoDunggeunmoPro-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UhBeeSeulvely';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+/* 메인 시작 */
 .maincontainer {
   width: 100%;
   height: 100%;
@@ -9,11 +58,16 @@
 .head {
   width: 100%;
   height: 100%;
+  /* font-family: 'NeoDunggeunmoPro-Regular'; */
+  /* font-family: 'DungGeunMo'; */
+  /* font-family: 'SDSamliphopangche_Outline'; */
+  /* font-family: 'UhBeeSeulvely'; */
 }
 
 .navi {
   width: 100%;
-  font-weight: bolder;
+
+  /* font-weight: bolder; */
   font-size: 15px;
   padding-top: 10px;
 }
@@ -23,8 +77,8 @@
   height: 45px;
   text-align: right;
   /* background-color: rgb(230, 208, 255); */
-
   margin-bottom: 0;
+  font-family: 'UhBeeSeulvely';
 }
 
 .top ul {
@@ -69,17 +123,21 @@ li a {
   height: 200px;
 }
 #love{
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-family: 'UhBeeSeulvely'; */
   text-align: center;
   margin-bottom: 5px;
   font-size: small;
 }
 .category {
   width: 100%;
-  height: 35px;
+  height: 40px;
   background-color: rgb(230, 208, 255);
   border: 1px solid white;
-  font-weight: bold;
-  padding-top: 5px;
+  padding-top: 6px;
+  font-family: 'TAEBAEKmilkyway';
+  font-weight: bolder;
+  font-size: large;
 }
 
 .category ul {
@@ -102,10 +160,18 @@ li a {
 #search {
   font-size: small;
 }
+
+/* 머리 끝 몸통 시작 */
+
 .body {
   width: 100%;
   height: 100%;
 text-align: center;
+font-family: 'TAEBAEKmilkyway';
+font-size: small;
+font-weight: bolder;
+/* font-family: 'DungGeunMo'; */
+/* font-family: 'UhBeeSeulvely'; */
 }
 
 .box {
@@ -119,10 +185,10 @@ text-align: center;
   display: inline-flex;
   margin: 0 auto;
 }
-.cloth #clothInfoA,.clothW #clothInfoB,.cloth #itemInfo{
+/* .cloth #clothInfoA,.clothW #clothInfoB,.cloth #itemInfo{
   font-weight: bold;
   font-size: small;
-}
+} */
 .cloth #clothInfoA:hover,#clothInfoB:hover,.cloth #itemInfo:hover{
   text-decoration: underline;
 }
@@ -180,8 +246,8 @@ text-align: center;
   margin-right: 10px;
 }
 .goodsA #itemInfo{
-  font-weight: bold;
-  font-size: small;
+  /* font-weight: bold; */
+  /* font-size: small; */
   color: black;
   /* background-color: lightpink; */
   padding-top: 5px;
@@ -327,8 +393,8 @@ text-align: center;
   margin-right: 15px;
 }
 .goodsB #itemInfo{
-font-size: small;
-font-weight: bold;
+/* font-size: small; */
+/* font-weight: bold; */
 padding-top: 10px;
 }
 .goodsB #itemInfo:hover{
@@ -432,7 +498,7 @@ padding-top: 10px;
 }
 .swInfo {
   display: inline-flex;
-
+  font-weight: bolder;
 }
 
 .infoA {

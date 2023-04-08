@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'UhBeeSeulvely';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .maincontainer {
   width: 100%;
   height: 100%;
@@ -10,6 +25,8 @@
   width: 100%;
   height: 100%;
   /* border: 1px solid black; */
+  font-family: 'UhBeeSeulvely';
+  font-weight: lighter;
 }
 
 .navi {
@@ -83,6 +100,8 @@ li a {
   /* text-align: center; */
   display: inline-flex;
   /* border: 1px solid black; */
+  font-family: 'TAEBAEKmilkyway';
+  font-weight: bolder;
 }
 .left{
   width: 43%;
@@ -150,6 +169,8 @@ button#postNum{
 .agA, .agB{
   /* border: 1px solid green; */
   font-size: small;
+  font-family: 'TAEBAEKmilkyway';
+  
 }
 .agA{
   width: 16%;
@@ -161,6 +182,7 @@ button#postNum{
   width: 10%;
   padding-left: 5px;
   color: blue;
+  font-weight: bolder;
 }
 .agB p{
   margin-bottom: 0;
@@ -178,6 +200,7 @@ button#postNum{
   background-color: #ceb6e0;
   border: 1px solid black;
   text-align: center;
+  font-family: 'TAEBAEKmilkyway';
 }
 .SignUp:hover {
   animation-name: rainbow;
